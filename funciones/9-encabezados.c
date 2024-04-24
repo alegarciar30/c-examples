@@ -36,9 +36,18 @@ int funcion3(int x) {
     return y;
 }
 
+
 // funcion4(): Igual a funcion3. pero con una resta en vez de una suma
 int funcion4(int x) {
     printf("En funcion4()...\n");
     int y = x - 2;
+    return y;
+}
+
+// funcion5(): Igual a funcion3, pero con un 5 en vez de un 2 en la suma
+int funcion5(int x) {
+    printf("En funcion5()...\n");
+    int y = x + 5;
+
     return y;
 }
