@@ -35,3 +35,10 @@ int funcion3(int x) {
     int y = x + 2;
     return y;
 }
+
+// funcion5(): Igual a funcion3, pero con un 5 en vez de un 2 en la suma
+int funcion5(int x) {
+    printf("En funcion5()...\n");
+    int y = x + 5;
+    return y;
+}
